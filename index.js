@@ -76,7 +76,8 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******FIN DE ENTRADA DEL MENÚ******/
 
 /******CARGA DE ENTRADA VCARD******/
-const vcard + 'VERSION:3.0\n' 
+const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
+            + 'VERSION:3.0\n' 
             + 'FN:BotEmolai\n' // Nombre
             + 'ORG:sofi;\n' // Propietario
             + 'TEL;type=CELL;type=VOICE;waid=542252511012:+542252511012\n' // ID de WhatsApp + número de teléfono
