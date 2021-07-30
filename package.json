@@ -17,8 +17,8 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Sofi",
-  "license": "MIT License",
+  "author": "sofi",
+  "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.1",
     "@kagchi/kag-api": "^1.5.5",
